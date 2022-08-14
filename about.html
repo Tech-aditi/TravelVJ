@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us </title>
+    <meta charset="utf-8">
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" type="text/css" href="../static/home.css">
+    <link rel="stylesheet" href="https://www.flaticon.com/free-icons/travel">
+</head> 
+<body>
+
+    <header>
+    
+        <!-- <div id="menu-bar" class="fas fa-bars"></div> -->
+    
+           <a href="#" class="logo"><span>T</span>ravel <span>VJ</span></a>
+    
+    
+        <nav class="navbar">
+            <a href="index.html">Explore</a>
+            <a href="explore.html">Study</a>
+     
+            <a href="service.html">Travel</a>
+            <a href="about.html">About</a>
+    
+            <!-- <a href="#profile">Profile</a> -->
+        </nav>
+                    <div class="icons">
+                <!-- <i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i> -->
+                <a href="https://facebook.com/groups/rajatshukla/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/rajatshukla___"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCX7cUaY4sDJdY56gFje0iWA"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.strava.com/athletes/103689739"><ion-icon name="bicycle-outline"></ion-icon></a>
+            </div>
+        <!-- <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+     -->
+        <!-- <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form> -->
+    
+    </header>
+
+    <div class="section">
+        <div class="container">
+            <div class="content-section">
+                <div class="title">
+                    <h1>About Us</h1>
+                </div><br><br>
+                <div class="image-section">
+                    <img src="images/about111.png">
+                </div>
+
+                <div class="read-more-container">
+
+                    <div class="container">
+                        <p>
+                        <h4>   Not all classrooms have four walls and travel is the best way to immerse yourself in the beauty of this world and the adventures during its explorations. Travel enriches the mind and educates us far beyond any textbook or talks. 
+
+                            Travel not just allows you to explore more in the world, but also let's you know more about yourself. 
+                            Whoever you are, whatever your age is, you are on this earth not just to be famous but to also be a complete stranger someday and witness how amazing this world can be.
+                            
+                            With tripurs, we help you explore trips, treks and vacations with different packages from across India and from different countries of the world. Whatever your travel style is, be it luxury, be it backpacking or be it adventure, we have got all your travel solutions right here.
+                            
+                            Think travel, remember Tripurs.
+                           
+                           
+                           
+                             
+
+                            </span>
+                        </h4>
+                        </p>
+
+                    </div>
+            
+                </div>
+
+                <div class="social">
+                    <a href="https://facebook.com/groups/rajatshukla/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com/rajatshukla__"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com/rajatshukla___"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCX7cUaY4sDJdY56gFje0iWA"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/mwlite/in/rajat-shukla-023256157"><i class="fab fa-linkedin"></i></a>
+                   
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="navigation" id="navigation">
+
+        <ul class="mobile-list">
+            
+   
+            <li class="list">
+                <a href= "index.html">
+                    <span class="icon active"><ion-icon name="home-outline"></ion-icon></span>
+                    <span class="text ">Home</span>
+                </a>
+            </li>
+            <li class="list">
+               <a href= "explore.html"  >
+                   <span class="icon active"><ion-icon name="search-outline"></ion-icon></ion-icon></span>
+                   <span class="text ">Explore</span>
+               </a>
+           </li>
+                </a>
+                <li class="list">
+                   <a  href= "service.html" ><span class="icon"></span>
+                      <span class="icon"><ion-icon name="briefcase-outline"></ion-icon></span>
+                      <span class="text">Services</span>
+                       
+                   </a>
+            </li>
+            <li class="list active">
+                <a href= "about.html">
+                   <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                   <span class="text">About</span>
+                </a>
+            </li>
+<!--             
+            <li class="list">
+                <a  href= "#">
+                    <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                    <span class="text">Profile</span>
+                </a>
+            </li> -->
+       
+            <div class="indicator"></div>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        const list = document.querySelectorAll('.list');
+        function activelink(){
+        list.forEach((item)=> 
+            item.classList.remove('active'));
+        this.classList.add('active');
+   
+        }
+       list.forEach((item)=> 
+       
+       item.addEventListener('click', activelink));
+   
+    </script>
+   
+    <script src="js/about.js"></script>
+    
+    
+</body>
+</html>

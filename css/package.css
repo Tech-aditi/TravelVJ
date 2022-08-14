@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+*{
+  font-family: 'Kalam', cursive;
+  padding: 0; margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+html{
+  overflow-x: hidden;
+  font-size: 62.5%;
+}
+
+.heading{
+    color:#333;
+    font-size: 3.5rem;
+    padding: 1rem;
+    padding-top: 6rem;
+    text-align: center;
+    letter-spacing: .2rem;
+  }
+  
+  .heading span{
+    color:#0098a1;
+  }
+
+.feature{
+    min-height:100vh;
+    background:#f9f9f9;
+  }
+  
+  .feature .card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .feature .card-container .card{
+    width:30rem;
+    margin:2rem;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .feature .card-container .card img{
+    height:25rem;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .feature .card-container .content{
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .feature .card-container .content .title{
+    color:#0098a1;
+    font-size: 3rem;
+  }
+  
+  .feature .card-container .content p{
+    color:#333;
+    font-size: 1.3rem;
+    padding:1rem;
+  }
+  
+  .feature .card-container .content .stars i{
+    padding:0 .2rem;
+    font-size: 2rem;
+    color:gold;
+  }
+  
+  .feature .card-container .content .btn{
+    font-size: 1.7rem;
+    margin-top: 1.4rem;
+    height:3.5rem;
+    width:12rem;
+    border-radius: .5rem;
+    outline: none;
+    border:none;
+    background: #0098a1;
+    color:#fff;
+    cursor: pointer;
+    transition: .2s linear;
+  }
+  
+  .feature .card-container .content .btn:hover{
+    background: none;
+    border:.2rem solid #0098a1;
+    color:#0098a1;
+  }
+  
+  .feature .card-container .card .discount{
+    position: absolute;
+    top:1rem; left: 1rem;
+    display: block;
+    height:3.5rem;
+    width:6rem;
+    background: #ff3300;
+    color:#fff;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+ 
+.price{
+    font-size: 2rem;
+    color:#333;
+    padding-top: 1rem;
+  }
+  
+ .price span{
+    color:#666;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+  }
+  
+  
+  
+   
